@@ -14,14 +14,16 @@ const Popup = () => {
     // });
 
     chrome.tabs.query({ active: true, currentWindow: true }, function (tabs) {
-      chrome.tabs.sendMessage(
-        tabs[0].id,
-        { commenting: newVal },
-        function (response) {
-          console.log("response", response);
-          setIsEnabled(newVal);
-        }
-      );
+      if (tabs[0].id) {
+        chrome.tabs.sendMessage(
+          tabs[0].id,
+          { commenting: newVal },
+          function (response) {
+            console.log("response", response);
+            setIsEnabled(newVal);
+          }
+        );
+      }
     });
   }, [isEnabled]);
 
