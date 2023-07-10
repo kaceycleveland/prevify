@@ -1311,13 +1311,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/chrome@npm:0.0.224":
-  version: 0.0.224
-  resolution: "@types/chrome@npm:0.0.224"
+"@types/chrome@npm:0.0.240":
+  version: 0.0.240
+  resolution: "@types/chrome@npm:0.0.240"
   dependencies:
     "@types/filesystem": "*"
     "@types/har-format": "*"
-  checksum: 2dd2291a81a351d3639bb241647f89ece6d27d13206db73e8eac813bd7bfc7e101deaf16c34203f7db32554412f8a776da5b8bfdf8857619d96b0cc68effc196
+  checksum: 5c7c8b6bc8961d64135793459256cbb454a2c88612cc2676629355278781c186d85d18c69da337368e56921cee6c8492b9c657427472f3ba26eb3d77a1da3ed7
   languageName: node
   linkType: hard
 
@@ -2259,7 +2259,7 @@ __metadata:
     "@supabase/auth-ui-shared": ^0.1.4
     "@supabase/supabase-js": ^2.21.0
     "@testing-library/react": 13.4.0
-    "@types/chrome": 0.0.224
+    "@types/chrome": 0.0.240
     "@types/jest": 29.0.3
     "@types/node": 18.15.11
     "@types/react": 18.0.21
